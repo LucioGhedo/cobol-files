@@ -1,0 +1,52 @@
+------------------------------------------------------------------
+ CA-Realia II Workbench Start Compile Task
+    Source File: C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.cbl
+   Options File: C:\CAWB30\DEFAULT.OPT
+    Working Dir: C:\CAWB30\SAMPLES\COBOL\CORSO\
+------------------------------------------------------------------
+
+=========== Start List of Compile Response File ============ 
+ C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.cbl
+ C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.OBJ
+ C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.LST
+=========== End List of Compile Response File ============== 
+
+------------------------------------------------------------------
+ Compile of C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.cbl Successful
+------------------------------------------------------------------
+
+------------------------------------------------------------------
+ CA-Realia II Workbench Link as EXE Task Summary:
+    Source File: C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.cbl
+    Working Dir: C:\CAWB30\SAMPLES\COBOL\CORSO\
+------------------------------------------------------------------
+
+===================== Format of LINK Command  ============= 
+= LINK,                                                     
+=     (1) FN.obj                                            
+=  (Obj's may appear on multiple lines!)                    
+=     (2) (/OUT:FN.EXE or FN.DLL),                          
+=     (3) (/MAP:FN.MAP (If requested)                       
+=     (4) (FN.LIB or (,)), - Lib's may appear on Mult Lines)
+============ (1) Start Format OBJ(s) Inputs ==================  
+C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.OBJ        
+ 
+============ (2) Start Format Output Module Name (EXE or DLL)=  
+/OUT:C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.EXE                         
+============ (3) Start Format Map Request ====================  
+============ (4) Start Format Lib(s) Inputs ==================  
+C:\CAWB30\lib\carclw60.lib
+ 
+============ Begin Link Step ================  
+Link as EXE 
+Microsoft (R) 32-Bit Incremental Linker Version 3.00.5270
+Copyright (C) Microsoft Corp 1992-1995. All rights reserved.
+
+C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.OBJ 
+/OUT:C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.EXE 
+C:\CAWB30\lib\carclw60.lib 
+
+------------------------------------------------------------------
+ Link of C:\CAWB30\SAMPLES\COBOL\CORSO\leggi.cbl Successful
+------------------------------------------------------------------
+
