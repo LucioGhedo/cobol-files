@@ -1,0 +1,35 @@
+CA-Realia COBOL Version 6.0.45	 c:\cawb30\samples\cobol\corso\livello.cbl		21OCT22 09:48:56  PAGE	  1
+
+
+
+			Realia COBOL Compiler Version Information
+
+			      Pass 1	 Version 6.072
+			      Pass 1a	 Version 6.015
+			      Pass 2	 Version 6.068
+			      Pass 2a	 Version 6.020
+			      Pass 3	 Version 6.094
+			      Pass 4	 Version 6.007
+			      Pass 5	 Version 6.022
+
+
+			Compilation Directives in Effect
+
+COMP-4		  DCHK		    OPT 	      NOCALL
+SUBCHK		  STRCHK	    ANSITRUNC	      NOSMALLCOMP
+NODCALL 	  DIVZERO	    NOEPDCALL	      APOST
+ASCII		  STATABORT	    NOMOVELINK	      NOBLL4K
+ARGCHK		  UPLOW 	    NOVERARG	      MDY
+LP:   60	  NOPP		    FCREATE	      IEEE
+NOLILIAN	  CURRENCY-SIGN=$   WRITEAFTER	      SOSI
+NOCOPY68	  NOFLAG-COM	    NOFLAG-SEG	      NOFLAG-FIPS
+DEBUGXREF	  DIALECT-REALIA6
+
+			Error level limit: W
+
+			Source lines compiled:	      86
+			Compilation time (mm:ss.ss):  0:01.09
+			Compilation speed (lines/minute):  4733
+
+			Compilation date (yy/mm/dd): 22/10/21
+			     Time of day (hh:mm:ss): 09:48:57
