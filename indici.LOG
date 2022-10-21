@@ -1,0 +1,52 @@
+------------------------------------------------------------------
+ CA-Realia II Workbench Start Compile Task
+    Source File: c:\cawb30\samples\cobol\corso\indici.cbl
+   Options File: C:\CAWB30\SAMPLES\COBOL\CORSO\indici.opt
+    Working Dir: c:\cawb30\samples\cobol\corso\
+------------------------------------------------------------------
+
+=========== Start List of Compile Response File ============ 
+ c:\cawb30\samples\cobol\corso\indici.cbl
+ c:\cawb30\samples\cobol\corso\indici.OBJ
+ c:\cawb30\samples\cobol\corso\indici.LST
+=========== End List of Compile Response File ============== 
+
+------------------------------------------------------------------
+ Compile of c:\cawb30\samples\cobol\corso\indici.cbl Successful
+------------------------------------------------------------------
+
+------------------------------------------------------------------
+ CA-Realia II Workbench Link as EXE Task Summary:
+    Source File: c:\cawb30\samples\cobol\corso\indici.cbl
+    Working Dir: c:\cawb30\samples\cobol\corso\
+------------------------------------------------------------------
+
+===================== Format of LINK Command  ============= 
+= LINK,                                                     
+=     (1) FN.obj                                            
+=  (Obj's may appear on multiple lines!)                    
+=     (2) (/OUT:FN.EXE or FN.DLL),                          
+=     (3) (/MAP:FN.MAP (If requested)                       
+=     (4) (FN.LIB or (,)), - Lib's may appear on Mult Lines)
+============ (1) Start Format OBJ(s) Inputs ==================  
+c:\cawb30\samples\cobol\corso\indici.OBJ        
+ 
+============ (2) Start Format Output Module Name (EXE or DLL)=  
+/OUT:c:\cawb30\samples\cobol\corso\indici.EXE                         
+============ (3) Start Format Map Request ====================  
+============ (4) Start Format Lib(s) Inputs ==================  
+C:\CAWB30\lib\carclw60.lib
+ 
+============ Begin Link Step ================  
+Link as EXE 
+Microsoft (R) 32-Bit Incremental Linker Version 3.00.5270
+Copyright (C) Microsoft Corp 1992-1995. All rights reserved.
+
+c:\cawb30\samples\cobol\corso\indici.OBJ 
+/OUT:c:\cawb30\samples\cobol\corso\indici.EXE 
+C:\CAWB30\lib\carclw60.lib 
+
+------------------------------------------------------------------
+ Link of c:\cawb30\samples\cobol\corso\indici.cbl Successful
+------------------------------------------------------------------
+
